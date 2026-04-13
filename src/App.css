@@ -1,38 +1,99 @@
-.App {
+.authContainer {
+  margin-top: 20px;
+  /* align-items: normal; */
+  /* background: linear-gradient(135deg, #000000 0%, #454181 100%); */
+  padding-right: 20px;
+}
+body{
+    background: linear-gradient(135deg, #000000 0%, #454181 100%);
+     min-height: 100vh;
+}
+.bodyColors {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.authTitle {
   text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputGroup {
+  margin-bottom: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input {
+  width:92%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2e1331;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.75rem;
+  background: #000000;
   color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.submitButton:hover {
+  background: #5a67d8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toggleText {
+  text-align: center;
+  margin-top: 1rem;
+  color: #4a5568;
+}
+
+.toggleLink {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.toggleLink:hover {
+  text-decoration: underline;
+}
+img{
+  width: 100%;
+}
+.titleBox{
+  border: 2px solid black;
+}
+/* Navbar section */
+.navbarLogo{
+  height: 50px;
+  width: 50px;
+}
+.navbarTopMenu{
+  background-color: rgba(rgb(207, 40, 40), rgb(131, 34, 34), rgb(167, 40, 40), 0.1);
 }
