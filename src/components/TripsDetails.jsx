@@ -82,7 +82,7 @@ const totalCost = tripFields.reduce((sum, [, value]) => {
         <thead>
         <tr>
           <th>#</th>
-          <th>Name of expance</th>
+          <th>Name of expense</th>
           <th>Value</th>
           <th>Comment</th>
         </tr>

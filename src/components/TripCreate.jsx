@@ -106,10 +106,10 @@ export default function CreateTripForm({ onSubmit }) {
             </InputGroup  >
 
          
-        <h4>Add expance </h4>
+        <h4>Add expense </h4>
         
         <InputGroup className="mb-3" >
-        <InputGroup.Text >Name of expance:</InputGroup.Text >
+        <InputGroup.Text >Name of expense:</InputGroup.Text >
         <InputGroup.Text >Value:</InputGroup.Text >
         <InputGroup.Text >Comment:</InputGroup.Text >
          
