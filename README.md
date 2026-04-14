@@ -44,7 +44,7 @@ Assuming that you have already installed and prepared MongoDB, below are instruc
 3. Specify variables in the `.env` file in backend directory.
 4. Run service by `npm start`
 5. Clone this repository as frontend.
-6. Specify variable `API_URL` in `.env` file in the frontend directory. It should contain an API URL with /api. Example: `http://127.0.0.1:8333/api`
+6. Specify variable `REACT_APP_API_URL;` in `.env` file in the frontend directory. It should contain an API URL with /api. Example: `http://127.0.0.1:8333/api`
 7. Run the frontend by running the command `npm start` in the frontend directory.
 
 The application should run on port 3000.
