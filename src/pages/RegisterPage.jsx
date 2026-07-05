@@ -50,7 +50,7 @@ export default function RegisterPage() {
         password: formData.password,
       });
 
-      setMessage(data.message || "Konto zostało utworzone");
+      setMessage(data.message || "Account has been created");
 
       setTimeout(() => {
         navigate("/login");
