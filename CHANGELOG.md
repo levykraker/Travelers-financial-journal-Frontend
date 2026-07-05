@@ -3,6 +3,7 @@
 - Remove old npm modules
 - Uses vite to deploy frontend
 - Fixed bootstrap for mobile phones
+- Fixed vite config
 
 ## [12.04.2026] - V1.0.0
 

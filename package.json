@@ -1,11 +1,11 @@
 {
   "name": "travelers-financial-journal-frondend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "npm run dev",
-    "dev": "vite --port 3000",
+    "dev": "vite --port 3000 --host",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
